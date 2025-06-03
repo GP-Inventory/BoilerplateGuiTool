@@ -11,7 +11,7 @@ import tkinter as tk  # Base Tkinter GUI framework (windows, widgets)
 from pathlib import Path  # Offers an object-oriented interface for filesystem paths
 from datetime import datetime, timedelta  # Handling date/time parsing, formatting, and calculations
 from io import BytesIO  # Enables handling of in-memory binary streams
-from typing import Union, List, Optional, Dict  # Type hinting for function parameters and return values
+from typing import Union, List, Optional, Dict, Any  # Type hinting for function parameters and return values
 
 # Install Required
 import pandas as pd  # (pandas) Data analysis and manipulation using DataFrames
